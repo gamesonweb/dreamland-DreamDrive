@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Builds
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+
+# Env vars
+.env
+.env.*
+
+# Cache
+.cache/
+.eslintcache
+
+# Babel
+babel-cache/
+
+# TypeScript
+*.tsbuildinfo
