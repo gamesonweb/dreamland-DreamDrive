@@ -30,7 +30,7 @@ import {
       roadSegments.push(segment);
     }
   
-    return roadSegments;
+    return roadSegments; 
   }
   
   /**
@@ -38,7 +38,7 @@ import {
    */
   export function updateRoad(road: Mesh[], car: Mesh): void {
     const speed = 0.5;
-    const curveAmplitude = 3;
+    const curveAmplitude = 3; 
   
     for (const segment of road) {
       segment.position.z -= speed;
