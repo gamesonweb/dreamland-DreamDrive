@@ -21,7 +21,7 @@ export function handleInput(car: Mesh, scene: Scene): void {
   let baseSpeed = 0.15;
 
   if (car.metadata?.slow) {
-    baseSpeed = 0.080; // Si slow actif
+    baseSpeed = 0.075; // Si slow actif
   }
 
   // Inversion des contrôles si "swap"
