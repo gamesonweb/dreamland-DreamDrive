@@ -4,7 +4,7 @@ import {
     StandardMaterial,
     Texture
   } from "@babylonjs/core";
-import skyTextureUrl from '../assets/sky_dreamland_hd.png';
+import skyTextureUrl from './assets/sky_dreamland_hd.png';
 
   
   /**
