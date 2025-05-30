@@ -4,8 +4,6 @@ import {
     StandardMaterial,
     Texture
   } from "@babylonjs/core";
-import skyTextureUrl from './assets/sky_dreamland_hd.png';
-
   
   /**
    * Crée un dôme de ciel pastel onirique
@@ -20,9 +18,11 @@ import skyTextureUrl from './assets/sky_dreamland_hd.png';
     dome.position.y = -100; // en dessous pour qu'il englobe tout
   
     const domeMat = new StandardMaterial("skyMat", scene);
-    domeMat.emissiveTexture = new Texture(skyTextureUrl, scene);
+    domeMat.emissiveTexture = new Texture("/assets/sky_dreamland_hd.png", scene);
     domeMat.backFaceCulling = false;
     domeMat.disableLighting = true;
   
     dome.material = domeMat;
   }  
+
+
