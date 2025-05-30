@@ -38,13 +38,16 @@
 - [Node.js](https://nodejs.org)
 - [Parcel](https://parceljs.org) (ou tout autre bundler moderne)
 
+## Jeu en ligne
+
+Vous pouvez jouer à la version hébergée du jeu ici :
+https://dreamland-dreamdrive.netlify.app/
+
 ### Lancer le jeu localement
 
 ```bash
 npm install
 npm run dev
 
-## Jeu en ligne
 
-Vous pouvez jouer à la version hébergée du jeu ici :
-https://dreamland-dreamdrive.netlify.app/
+
