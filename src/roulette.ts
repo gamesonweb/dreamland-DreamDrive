@@ -19,7 +19,7 @@ import {
     const gui = AdvancedDynamicTexture.CreateFullscreenUI("rouletteUI", true, scene);
     isSpinning = true;
   
-    container = new Rectangle();
+    container = new Rectangle(); // Create a new Rectangle for the roulette
     container.width = "200px";
     container.height = "100px";
     container.cornerRadius = 10;
